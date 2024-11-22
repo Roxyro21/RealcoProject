@@ -15,7 +15,7 @@ export const ComfortFamilyHouses = () => (
       </p>
       <Button
         text="Explore properties"
-        className={"bg-[#FFF] text-gray-900 border-2"}
+        className={"bg-[#FFF] !text-gray-700 border-2"}
         style={{ fontSize: "16px" }}
       />
       <span className=" text-stone-700 ml-10">Contact agent > </span>
