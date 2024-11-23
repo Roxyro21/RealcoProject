@@ -67,26 +67,28 @@ const apartments = [
 ];
 
 export const ApartmentList = () => (
-  <div className="container bg-[#F5F5F2]">
-    <div className="text-center pt-[128px] pb-[80px]">
-      <Badge text="Properties" />
-      <h1 className="text-[48px] font-bold text-[#2A2C1F]">
-        Houses in your favorite area
-      </h1>
-    </div>
+  <div className="bg-[#F5F5F2]">
+    <div className="container ">
+      <div className="text-center pt-[128px] pb-[80px]">
+        <Badge text="Properties" />
+        <h1 className="text-[48px] font-bold text-[#2A2C1F]">
+          Houses in your favorite area
+        </h1>
+      </div>
 
-    <div className="grid grid-cols-3 gap-8">
-      {apartments.map((apartments, index) => (
-        <LabelCard key={index} {...apartments} />
-      ))}
-    </div>
-    <div className="flex justify-center items-center gap-3 pt-[80px] pb-[160px]">
-      <Button
-        text="Explore properties"
-        className="bg-[#FFF] !text-gray-700 border-2"
-        style={{ fontSize: "16px" }}
-      />
-      <span className="text-stone-700 ml-5">Contact agent &gt;</span>
+      <div className="grid grid-cols-3 gap-8">
+        {apartments.map((apartments, index) => (
+          <LabelCard key={index} {...apartments} />
+        ))}
+      </div>
+      <div className="flex justify-center items-center gap-3 pt-[80px] pb-[160px]">
+        <Button
+          text="Explore properties"
+          className="bg-[#FFF] !text-gray-700 border-2"
+          style={{ fontSize: "16px" }}
+        />
+        <span className="text-stone-700 ml-5">Contact agent &gt;</span>
+      </div>
     </div>
   </div>
 );

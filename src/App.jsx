@@ -12,7 +12,6 @@ import { LatestPostList } from "./components/Posts";
 import { Footer } from "./components/Footer";
 import { FooterInfo } from "./components/FooterInfo";
 
-
 function App() {
   return (
     <>
@@ -28,7 +27,7 @@ function App() {
       <ClientTestimonial />
       <LatestPostList />
       <Footer />
-      <FooterInfo/>
+      <FooterInfo />
     </>
   );
 }
