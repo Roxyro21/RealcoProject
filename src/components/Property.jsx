@@ -1,7 +1,7 @@
 import HomeImage from "../assets/realco.images/property.png";
-import { Button } from "./Button";
-import { Badge } from "./Badge";
-import { Input } from "./InputButton";
+import { Button } from "./ui/Button";
+import { Badge } from "./ui/Badge";
+import { Input } from "./ui/InputButton";
 
 export const PropertySection = () => (
   <div className="bg-[#F5F5F2]">

@@ -1,5 +1,5 @@
 import FamilyIcon from "../assets/realco.icons/family.svg";
-import { Button } from "./Button";
+import { Button } from "./ui/Button";
 
 export const FamilyPriority = () => (
   <div className="bg-[#F5F5F2]">

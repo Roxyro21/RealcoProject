@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import { Badge } from "./Badge";
-import { LatestPosts } from "./PostCard";
-import { Button } from "./Button";
-import { Modal } from "./Modal";
+import { Badge } from "./ui/Badge";
+import { LatestPosts } from "./ui/PostCard";
+import { Button } from "./ui/Button";
+import { Modal } from "./ui/Modal";
 
 import CozyHome from "../assets/realco.images/Cozy.png";
 import TinyHome from "../assets/realco.images/Tiny.png";

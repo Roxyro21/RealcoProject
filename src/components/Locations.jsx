@@ -1,5 +1,5 @@
-import { LocationsCards } from "./LocationCards";
-import { Button } from "./Button";
+import { LocationsCards } from "./ui/LocationCards";
+import { Button } from "./ui/Button";
 
 export const LocationInfo = () => (
   <div className="bg-[#F5F5F2]">
@@ -23,7 +23,7 @@ export const LocationInfo = () => (
         <Button
           text="Explore properties"
           className="bg-[#FFF] !text-gray-700 border-2"
-          style={{ fontSize: "16px" }}
+          
         />
         <span className=" text-stone-700 ml-5">Contact agent > </span>
       </div>

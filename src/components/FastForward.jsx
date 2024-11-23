@@ -1,9 +1,9 @@
 import FamilyHouses from "../assets/realco.images/FamilyHouses2.png";
 import PaymentsIcon from "../assets/realco.icons/payments.svg";
 import DescriptionIcon from "../assets/realco.icons/description.svg";
-import { Button } from "./Button";
-import { Badge } from "./Badge";
-import { Card } from "./Cards";
+import { Button } from "./ui/Button";
+import { Badge } from "./ui/Badge";
+import { Card } from "./ui/Cards";
 
 export const FastForward = () => (
   <div className="container flex gap-8 items-center">
@@ -41,7 +41,6 @@ export const FastForward = () => (
         <Button
           text="Explore properties"
           className="bg-[#FFF] !text-gray-700 border-2"
-          style={{ fontSize: "16px" }}
         />
         <span className=" text-stone-700 ml-10">Contact agent > </span>
       </div>

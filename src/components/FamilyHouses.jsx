@@ -1,6 +1,6 @@
-import { Badge } from "./Badge";
+import { Badge } from "./ui/Badge";
 import FamilyHouses from "../assets/realco.images/FamilyHouses.png";
-import { Button } from "./Button";
+import { Button } from "./ui/Button";
 
 export const ComfortFamilyHouses = () => (
     <div className="container flex ">
@@ -16,7 +16,7 @@ export const ComfortFamilyHouses = () => (
         <Button
           text="Explore properties"
           className={"bg-[#FFF] !text-gray-700 border-2"}
-          style={{ fontSize: "16px" }}
+          
         />
         <span className=" text-stone-700 ml-10">Contact agent > </span>
       </div>

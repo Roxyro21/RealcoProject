@@ -2,7 +2,7 @@ import realcoIcon from "../assets/realco.icons/icon.svg";
 import expandIcon from "../assets/realco.icons/expand.png";
 import searchIcon from "../assets/realco.icons/search.png";
 import soppingBagIcon from "../assets/realco.icons/shopping_bag.png";
-import { Button } from "./Button";
+import { Button } from "./ui/Button";
 
 export const Header = () => (
   <header className="container">

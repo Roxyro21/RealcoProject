@@ -1,7 +1,7 @@
 import HomeIcon from "../assets/realco.icons/home.svg";
 import NotesIcon from "../assets/realco.icons/notes.svg";
 import KeyIcon from "../assets/realco.icons/key.svg";
-import { Card } from "./Cards";
+import { Card } from "./ui/Cards";
 
 export const ProcessOverview = () => (
     <div className="container">

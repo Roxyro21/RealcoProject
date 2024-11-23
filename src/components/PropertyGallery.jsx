@@ -1,6 +1,6 @@
-import { Badge } from "./Badge";
-import { Button } from "./Button";
-import { LabelCard } from "./LabelCard";
+import { Badge } from "./ui/Badge";
+import { Button } from "./ui/Button";
+import { LabelCard } from "./ui/LabelCard";
 
 import CozyHome from "../assets/realco.images/Cozy.png";
 import TinyHome from "../assets/realco.images/Tiny.png";
@@ -85,7 +85,7 @@ export const ApartmentList = () => (
         <Button
           text="Explore properties"
           className="bg-[#FFF] !text-gray-700 border-2"
-          style={{ fontSize: "16px" }}
+          
         />
         <span className="text-stone-700 ml-5">Contact agent &gt;</span>
       </div>

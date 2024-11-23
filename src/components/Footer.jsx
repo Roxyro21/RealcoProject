@@ -1,6 +1,6 @@
 import realcoIcon from "../assets/realco.icons/icon.svg";
-import { Button } from "./Button";
-import { Input } from "./InputButton";
+import { Button } from "./ui/Button";
+import { Input } from "./ui/InputButton";
 
 const footerLinks = [
   {

@@ -1,4 +1,4 @@
-import { TestimonialCard } from "./TestimonialCard";
+import { TestimonialCard } from "./ui/TestimonialCard";
 
 import StarsIcon from "../assets/realco.icons/stars.svg";
 import MichaelImg from "../assets/realco.images/Michael.png";
