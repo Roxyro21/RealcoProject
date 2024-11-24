@@ -68,7 +68,7 @@ const apartments = [
 
 export const ApartmentList = () => (
   <div className="bg-[#F5F5F2]">
-    <div className="container ">
+    <div className="container">
       <div className="text-center pt-[128px] pb-[80px]">
         <Badge text="Properties" />
         <h1 className="text-[48px] font-bold text-[#2A2C1F]">
@@ -85,7 +85,6 @@ export const ApartmentList = () => (
         <Button
           text="Explore properties"
           className="bg-[#FFF] !text-gray-700 border-2"
-          
         />
         <span className="text-stone-700 ml-5">Contact agent &gt;</span>
       </div>

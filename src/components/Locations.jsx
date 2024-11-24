@@ -12,12 +12,12 @@ export const LocationInfo = () => (
         </p>
       </div>
       <div className="grid grid-cols-3 gap-5">
-        <LocationsCards description={"San Francisco, CA"} />
-        <LocationsCards description={"Los Angeles, CA"} />
-        <LocationsCards description={"San Diego, CA"} />
-        <LocationsCards description={"New York, NY"} />
-        <LocationsCards description={"Las Vegas, NV"} />
-        <LocationsCards description={"Miami, FL"} />
+        <LocationsCards description="San Francisco, CA" />
+        <LocationsCards description="Los Angeles, CA" />
+        <LocationsCards description="San Diego, CA" />
+        <LocationsCards description="New York, NY" />
+        <LocationsCards description="Las Vegas, NV" />
+        <LocationsCards description="Miami, FL" />
       </div>
       <div className="flex justify-center items-center gap-3 pt-[80px] pb-[128px]">
         <Button
@@ -25,7 +25,7 @@ export const LocationInfo = () => (
           className="bg-[#FFF] !text-gray-700 border-2"
           
         />
-        <span className=" text-stone-700 ml-5">Contact agent > </span>
+        <span className=" text-stone-700 ml-5">Contact agent &gt; </span>
       </div>
     </div>
   </div>

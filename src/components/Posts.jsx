@@ -53,6 +53,7 @@ export const LatestPostList = () => {
     setSelectedpost(null);
     setIsModalOpen(false);
   };
+
   return (
     <div className="bg-[#F5F5F2]">
       <div className="container">

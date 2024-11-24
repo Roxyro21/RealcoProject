@@ -1,7 +1,7 @@
-import LocationIcon from "../../assets/realco.icons/location.svg";
-import BathtubIcon from "../../assets/realco.icons/bathtab.svg";
-import BadIcon from "../../assets/realco.icons/bad.svg";
-import SquareIcon from "../../assets/realco.icons/square.svg";
+  import LocationIcon from "../../assets/realco.icons/location.svg";
+  import BathtubIcon from "../../assets/realco.icons/bathtab.svg";
+  import BadIcon from "../../assets/realco.icons/bad.svg";
+  import SquareIcon from "../../assets/realco.icons/square.svg";
 
 export const LabelCard = ({
   img,
@@ -20,7 +20,7 @@ export const LabelCard = ({
 
       <div className="flex gap-2 pb-3">
         <img src={LocationIcon} />
-        <span className="text-[#65665C] ">{location}</span>
+        <span className="text-[#65665C]">{location}</span>
       </div>
 
       <div className="flex gap-2">
